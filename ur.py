@@ -14,8 +14,8 @@ clock = pygame.time.Clock()
 while True:
     now = datetime.now()
     second = now.second
-    minute = now.minute - 25
-    hour = now.hour % 12 +3
+    minute = now.minute
+    hour = now.hour % 12
     vineboom = pygame.mixer.Sound('vineboom.mp3')
     vergil = pygame.mixer.Sound('vergil.mp3')
     sixseven = pygame.mixer.Sound('sixseven.mp3')
