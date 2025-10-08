@@ -78,9 +78,9 @@ while True:
     text0 = font.render(f'{hour}:0{minute}', True, (255, 255, 255))
     
     if minute > 9:
-        screen.blit(text, (267,222))
+        screen.blit(text, (277,222))
     else:
-        screen.blit(text0, (267,222))
+        screen.blit(text0, (277,222))
 
     pygame.draw.line(screen, (255, 0, 0), startpoint, endpointsecondhand, 1)
     pygame.draw.line(screen, (255, 255, 255), startpoint, endpointminutehand, 2)
